@@ -17,3 +17,6 @@ The first interface behavior allowed the barrier selector to change even after t
 
 ## Fix
 Lock the barrier selector after navigator acceptance and keep a visible note that the accepted case remains unresolved until a valid closing event occurs.
+
+## Live deployment accessibility check
+The first live deployment passed the complete escalation path with no browser errors. Dynamic attempt and case-status fields did not announce their changes to screen readers, so `aria-live` regions were added before the second deployment. The functional behavior remained unchanged and the mechanical suite continued to pass.

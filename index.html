@@ -25,9 +25,9 @@
       <dl>
         <dt>Owner</dt><dd>Lucía / navigation support</dd>
         <dt>Deadline</dt><dd>18 Sep 2026</dd>
-        <dt>Status</dt><dd id="statusText">ACTION REQUIRED</dd>
+        <dt>Status</dt><dd id="statusText" aria-live="polite">ACTION REQUIRED</dd>
         <dt>Barrier</dt><dd id="barrierText">Transportation</dd>
-        <dt>Attempts</dt><dd><span id="attemptCount">0</span> of 2</dd>
+        <dt>Attempts</dt><dd aria-live="polite"><span id="attemptCount">0</span> of 2</dd>
         <dt>Escalation</dt><dd id="escalationText">Not required</dd>
       </dl>
     </section>
@@ -60,8 +60,8 @@
 
     <aside class="card navigator">
       <h2>Navigator dashboard</h2>
-      <div id="navStatus" class="nav-status">CASE OPEN</div>
-      <p id="navMessage">No human review required yet.</p>
+      <div id="navStatus" class="nav-status" aria-live="assertive">CASE OPEN</div>
+      <p id="navMessage" aria-live="polite">No human review required yet.</p>
       <div class="attempts" id="attemptHistory"><strong>Attempt history</strong><p>No attempts recorded.</p></div>
       <button id="acceptBtn" disabled>Accept unresolved case</button>
       <div class="note">Accepting a case does not mark it resolved. The case stays unresolved until the next action is confirmed, redirected by a clinician, or the patient makes an informed opt-out.</div>
