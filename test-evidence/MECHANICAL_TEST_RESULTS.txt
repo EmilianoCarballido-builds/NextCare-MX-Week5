@@ -1,0 +1,8 @@
+PASS: fictional demo label
+PASS: clinical boundary
+PASS: structured owner field
+PASS: deadline field
+PASS: barrier field
+PASS: two-attempt escalation
+PASS: unresolved human acceptance
+PASS: simulated AI label

@@ -1,0 +1,10 @@
+8cf35b7 docs: add generated mockup to packet
+29708b8 test: document persona walkthrough and usability fix
+3369638 test: document mechanical pass and bug fix
+45b226d docs: add session close decisions
+da79a35 test: add mechanical acceptance checks
+e31e43d chore: add runnable prototype package
+ec85c68 feat: add structured handoff and escalation logic
+a96a4e7 feat: style responsive navigation dashboard
+5648d13 feat: build NextCare MX static interface
+4da530d docs: add week 5 product packet
